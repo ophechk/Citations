@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    margin: 0 auto;
+    font-family: "Roboto";
+}
+
+img.home {
+    width: 1850px;
+    height: auto;
+}
+
+section.main {
+    padding-left: 20px;
+}
+
+h2 {
+    font-size: 40px;
+    text-align: center;
+}
+
+div.box {
+    width: 300px;
+    border: 15px solid rgb(107, 219, 236);
+    padding: 100px;
+    margin-left: 565px;
+    margin-top: 65px;
+    border-radius: 2px;
+}
+
+.button {
+  background-color: rgb(107, 219, 236);
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  padding-bottom: 10px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button:hover,
+.button:focus {
+  background-color: rgb(87, 209, 228);
+}
